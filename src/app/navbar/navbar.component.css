@@ -1,0 +1,24 @@
+header {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+img {
+    max-height: 60px;
+    width: auto;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    margin: 0 15px;
+}

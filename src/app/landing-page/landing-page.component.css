@@ -1,0 +1,41 @@
+/* Slider Styles */
+.slider-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* General Styles */
+section {
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    color: #1a202c;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 8px;
+}
